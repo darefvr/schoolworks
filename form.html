@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Club Registration Form</title>
+</head>
+<body>
+    <h2>Club Registration Form</h2>
+    <form action="#" method="post">
+        <!-- Name -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <!-- Metric Number -->
+        <label for="metricNumber">Metric Number:</label>
+        <input type="text" id="metricNumber" name="metricNumber" required>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <!-- Level -->
+        <label for="level">Level:</label>
+        <select id="level" name="level" required>
+            <option value="100">100</option>
+            <option value="200">200</option>
+            <option value="300">300</option>
+            <option value="400">400</option>
+        </select>
+
+        <!-- Course -->
+        <label for="course">Course:</label>
+        <input type="text" id="course" name="course" required>
+
+        <!-- Hall of Residence -->
+        <label for="hallOfResidence">Hall of Residence:</label>
+        <select id="hallOfResidence" name="hallOfResidence" required>
+            <option value="hall1">Hall 1</option>
+            <option value="hall2">Hall 2</option>
+            <option value="hall3">Hall 3</option>
+        </select>
+
+        <!-- Gender -->
+        <label>Gender:</label>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
